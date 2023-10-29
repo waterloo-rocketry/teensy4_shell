@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config USB_DEVICE_PID
-	default USB_PID_CONSOLE_SAMPLE
+	default 0x1234
 
 config LOG_BACKEND_UART
     bool "Enable UART backend"
